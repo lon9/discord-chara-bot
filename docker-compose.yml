@@ -1,0 +1,9 @@
+version: "2"
+services:
+  bot:
+    build: .
+    working_dir: /go/src/github.com/Rompei/discord-chara-bot
+    command: /go/bin/discord-chara-bot
+    restart: always
+    env_file:
+      - .env

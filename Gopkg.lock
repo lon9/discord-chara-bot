@@ -1,0 +1,25 @@
+memo = ""
+
+[[projects]]
+  branch = "master"
+  name = "github.com/bwmarrin/discordgo"
+  packages = ["."]
+  revision = "9ce745633f5df2849c8f03d7e8cd0b1fb6d35001"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gorilla/websocket"
+  packages = ["."]
+  revision = "71fa72d4842364bc5f74185f4161e0099ea3624a"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["nacl/secretbox"]
+  revision = "edd5e9b0879d13ee6970a50153d85b8fec9f7686"
+
+[[projects]]
+  branch = "master"
+  name = "gopkg.in/yaml.v2"
+  packages = ["."]
+  revision = "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
